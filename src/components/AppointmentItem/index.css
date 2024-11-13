@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.appointment-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  border: 1px solid #b5b7c4;
+  border-radius: 12px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.title-date-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+.title {
+  color: #171f46;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.date {
+  color: #b5b7c4;
+  font-size: 12px;
+  font-family: 'Roboto';
+  margin-top: 0px;
+}
+.star-btn {
+  border: none;
+  background-color: transparent;
+}
+.star-img {
+  width: 20px;
+  align-self: flex-start;
+}
